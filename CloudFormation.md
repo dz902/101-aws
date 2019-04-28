@@ -17,6 +17,13 @@
     - p-data-dash-code-deploy
 ```
 
+## CodeDeploy
+
+### TagFilters & TagSet ###
+
+- **TagFilters** = a list of TagFilter, select instances that match any tag
+- **TagSet** = a list of TagSetList
+
 ## Other
 
 ### Referring to AWS managed policies
