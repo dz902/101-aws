@@ -6,6 +6,19 @@
   - Can be *nested*
 - **StackSet** = Multiple stacks working as a whole
 
+## Syntax
+
+### Join with Ref
+
+```
+!Join
+  - '-'
+  - - !Ref AWS::Region
+    - p-data-dash-code-deploy
+```
+
+## Other
+
 ### Referring to AWS managed policies
 
 - Use ARN directly as they do not change, e.g. `arn:aws:iam::aws:policy/AlexaForBusinessDeviceSetup`
