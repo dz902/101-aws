@@ -6,6 +6,10 @@
   - Can be *nested*
 - **StackSet** = Multiple stacks working as a whole
 
-# Referring to AWS managed policies
+## Referring to AWS managed policies
 
 - Use ARN directly as they do not change, e.g. `arn:aws:iam::aws:policy/AlexaForBusinessDeviceSetup`
+
+## Don't forget double colon (::)
+
+- `AWS::IAM:Role` is missing a colon
