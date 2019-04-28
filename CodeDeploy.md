@@ -7,6 +7,4 @@
 
 # Service Role
 
-- **Service Role** = IAM Role with permission to operate ELB, EC2, etc.
 - **AWSCodeDeployServiceRole** = Predefined _policy_ (despite its name) for CodeDeploy
-- 
