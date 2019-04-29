@@ -22,17 +22,19 @@
 ### TagFilters & TagSet ###
 
 - **TagFilters** = a list of TagFilter, select instances that match any tag
-- **TagSet** = see below, must match all
+- **TagSet** = see below, must match all tags to proceed
 
 ```
-TagSet:
+Ec2TagSet:
   Ec2TagSetList:
-    - Key: project
-      Value: data-dash
-      Type: KEY_AND_VALUE
-    - Key: environment
-      Value: production
-      Type: KEY_AND_VALUE
+    - Ec2TagGroup:
+      - Key: project
+        Value: data-dash
+        Type: KEY_AND_VALUE
+    - Ec2TagGroup:
+      - Key: environment
+        Value: production
+        Type: KEY_AND_VALUE
 ```
 
 ## Other
