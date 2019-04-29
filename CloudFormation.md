@@ -17,6 +17,20 @@
     - p-data-dash-code-deploy
 ```
 
+### Nesting function calls
+
+```
+"Fn::Base64":
+  !Ref:
+```
+
+## VPC
+
+### Attaching gateway is a resource
+
+- Namely, **VPCGatewayAttachment**
+- Routing table entry is a resource by itself too, namely **SubnetRouteTableAssociation**
+
 ## CodeDeploy
 
 ### TagFilters & TagSet ###
